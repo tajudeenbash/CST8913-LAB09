@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-05",
+  "currency": "USD",
+  "hours": 730,
+  "regions": [
+    "eastus",
+    "westeurope",
+    "southeastasia"
+  ],
+  "vm": {
+    "eastus": {
+      "payg": 0.192,
+      "one": 1038,
+      "three": 1993,
+      "windows": 0.376
+    },
+    "westeurope": {
+      "payg": 0.23,
+      "one": 1243,
+      "three": 2388,
+      "windows": 0.414
+    },
+    "southeastasia": {
+      "payg": 0.24,
+      "one": 1297,
+      "three": 2491,
+      "windows": 0.424
+    }
+  },
+  "sql": {
+    "eastus": {
+      "payg": 0.152218,
+      "one": 867,
+      "three": 1800,
+      "storage": 0.23,
+      "zone": 1.461296
+    },
+    "westeurope": {
+      "payg": 0.167439,
+      "one": 953,
+      "three": 1980,
+      "storage": 0.2737,
+      "zone": 1.607408
+    }
+  },
+  "cosmos": {
+    "eastus": {
+      "storage": 0.25,
+      "ru": 0.008
+    },
+    "westeurope": {
+      "storage": 0.25,
+      "ru": 0.008
+    },
+    "southeastasia": {
+      "storage": 0.25,
+      "ru": 0.008
+    }
+  },
+  "gpu": 0.526,
+  "apiBase": [
+    8,
+    6,
+    6
+  ],
+  "apiBurst": [
+    8,
+    6,
+    6
+  ],
+  "burstHours": 146,
+  "webPerRegion": 10,
+  "paymentPerRegion": 2,
+  "sqlVcoresPerInstance": 16,
+  "sqlStorageGBPerInstance": 5120,
+  "cosmosGBPerRegion": 10000,
+  "cosmosRUPerRegion": 20000,
+  "backupGBPerRegion": 40000,
+  "sqlLicensePerCoreHourAllowance": 0.1
+}

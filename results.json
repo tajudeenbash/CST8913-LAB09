@@ -1,0 +1,706 @@
+{
+  "summary": {
+    "operations": 55206.857679999994,
+    "management": 4636,
+    "paygMonthly": 59842.857679999994,
+    "recommendedMonthly": 55096.93058666666,
+    "conditionalAhbMonthly": 51955.01058666666,
+    "migrationSubtotal": 88113.49768,
+    "migrationBudget": 101330.522332,
+    "discount1": 4745.927093333333,
+    "discount3": 7485.871537777777,
+    "projection": [
+      {
+        "year": 1,
+        "paygMonthly": 59842.857679999994,
+        "reservedMonthly": 55096.93058666666,
+        "additionalOptimization": 0,
+        "optimizedMonthly": 55096.93058666666,
+        "annual": 661163.16704,
+        "budget": 861668.1644279999
+      },
+      {
+        "year": 2,
+        "paygMonthly": 73715.02461599998,
+        "reservedMonthly": 68019.91210399999,
+        "additionalOptimization": 1582,
+        "optimizedMonthly": 66437.91210399999,
+        "annual": 797254.9452479999,
+        "budget": 916843.1870351997
+      },
+      {
+        "year": 3,
+        "paygMonthly": 90994.11475919999,
+        "reservedMonthly": 84159.97974479999,
+        "additionalOptimization": 3955,
+        "optimizedMonthly": 80204.97974479999,
+        "annual": 962459.7569375999,
+        "budget": 1106828.7204782397
+      }
+    ]
+  },
+  "rows": [
+    {
+      "group": "Operations",
+      "name": "Web Linux D4s v5 — eastus",
+      "quantity": 7300,
+      "rate": 0.192,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1401.6000000000001
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 baseline — eastus",
+      "quantity": 5840,
+      "rate": 0.192,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1121.28
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 burst — eastus",
+      "quantity": 1168,
+      "rate": 0.192,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 224.256
+    },
+    {
+      "group": "Operations",
+      "name": "Payment Windows D4s v5 — eastus",
+      "quantity": 1460,
+      "rate": 0.376,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 548.96
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB provisioned throughput — eastus",
+      "quantity": 146000,
+      "rate": 0.008,
+      "unit": "100 RU/s-hour",
+      "status": "Verified",
+      "growth": 0.25,
+      "monthly": 1168
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB logical data copy — eastus",
+      "quantity": 10000,
+      "rate": 0.25,
+      "unit": "GB-month",
+      "status": "Verified",
+      "growth": 0.3,
+      "monthly": 2500
+    },
+    {
+      "group": "Operations",
+      "name": "Backup object storage copy — eastus",
+      "quantity": 40000,
+      "rate": 0.02,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 800
+    },
+    {
+      "group": "Operations",
+      "name": "Web Linux D4s v5 — westeurope",
+      "quantity": 7300,
+      "rate": 0.23,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1679
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 baseline — westeurope",
+      "quantity": 4380,
+      "rate": 0.23,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1007.4000000000001
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 burst — westeurope",
+      "quantity": 876,
+      "rate": 0.23,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 201.48000000000002
+    },
+    {
+      "group": "Operations",
+      "name": "Payment Windows D4s v5 — westeurope",
+      "quantity": 1460,
+      "rate": 0.414,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 604.4399999999999
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB provisioned throughput — westeurope",
+      "quantity": 146000,
+      "rate": 0.008,
+      "unit": "100 RU/s-hour",
+      "status": "Verified",
+      "growth": 0.25,
+      "monthly": 1168
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB logical data copy — westeurope",
+      "quantity": 10000,
+      "rate": 0.25,
+      "unit": "GB-month",
+      "status": "Verified",
+      "growth": 0.3,
+      "monthly": 2500
+    },
+    {
+      "group": "Operations",
+      "name": "Backup object storage copy — westeurope",
+      "quantity": 40000,
+      "rate": 0.02,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 800
+    },
+    {
+      "group": "Operations",
+      "name": "Web Linux D4s v5 — southeastasia",
+      "quantity": 7300,
+      "rate": 0.24,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1752
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 baseline — southeastasia",
+      "quantity": 4380,
+      "rate": 0.24,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1051.2
+    },
+    {
+      "group": "Operations",
+      "name": "API Linux D4s v5 burst — southeastasia",
+      "quantity": 876,
+      "rate": 0.24,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 210.23999999999998
+    },
+    {
+      "group": "Operations",
+      "name": "Payment Windows D4s v5 — southeastasia",
+      "quantity": 1460,
+      "rate": 0.424,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 619.04
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB provisioned throughput — southeastasia",
+      "quantity": 146000,
+      "rate": 0.008,
+      "unit": "100 RU/s-hour",
+      "status": "Verified",
+      "growth": 0.25,
+      "monthly": 1168
+    },
+    {
+      "group": "Operations",
+      "name": "Cosmos DB logical data copy — southeastasia",
+      "quantity": 10000,
+      "rate": 0.25,
+      "unit": "GB-month",
+      "status": "Verified",
+      "growth": 0.3,
+      "monthly": 2500
+    },
+    {
+      "group": "Operations",
+      "name": "Backup object storage copy — southeastasia",
+      "quantity": 40000,
+      "rate": 0.02,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 800
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI GP Gen5 base compute — eastus",
+      "quantity": 11680,
+      "rate": 0.152218,
+      "unit": "vCore-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1777.9062399999998
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI zone redundancy compute — eastus",
+      "quantity": 730,
+      "rate": 1.461296,
+      "unit": "16-vCore instance-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1066.74608
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI zone redundant storage — eastus",
+      "quantity": 5120,
+      "rate": 0.23,
+      "unit": "GB-month",
+      "status": "Verified",
+      "growth": 0.3,
+      "monthly": 1177.6000000000001
+    },
+    {
+      "group": "Operations",
+      "name": "SQL licensing — eastus",
+      "quantity": 11680,
+      "rate": 0.1,
+      "unit": "vCore-hour",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 1168
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI GP Gen5 base compute — westeurope",
+      "quantity": 11680,
+      "rate": 0.167439,
+      "unit": "vCore-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1955.68752
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI zone redundancy compute — westeurope",
+      "quantity": 730,
+      "rate": 1.607408,
+      "unit": "16-vCore instance-hour",
+      "status": "Verified",
+      "growth": 0.2,
+      "monthly": 1173.4078399999999
+    },
+    {
+      "group": "Operations",
+      "name": "SQL MI zone redundant storage — westeurope",
+      "quantity": 5120,
+      "rate": 0.2737,
+      "unit": "GB-month",
+      "status": "Verified",
+      "growth": 0.3,
+      "monthly": 1401.344
+    },
+    {
+      "group": "Operations",
+      "name": "SQL licensing — westeurope",
+      "quantity": 11680,
+      "rate": 0.1,
+      "unit": "vCore-hour",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 1168
+    },
+    {
+      "group": "Operations",
+      "name": "Premium managed OS disks (including burst disks)",
+      "quantity": 76,
+      "rate": 20,
+      "unit": "disk-month",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 1520
+    },
+    {
+      "group": "Operations",
+      "name": "Regional load balancer fixed charge",
+      "quantity": 2190,
+      "rate": 0.025,
+      "unit": "LB-hour",
+      "status": "Allowance",
+      "growth": 0.1,
+      "monthly": 54.75
+    },
+    {
+      "group": "Operations",
+      "name": "Regional load balancer data processing",
+      "quantity": 20000,
+      "rate": 0.005,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 100
+    },
+    {
+      "group": "Operations",
+      "name": "Front Door Premium base (WAF included)",
+      "quantity": 1,
+      "rate": 330,
+      "unit": "profile-month",
+      "status": "Allowance",
+      "growth": 0,
+      "monthly": 330
+    },
+    {
+      "group": "Operations",
+      "name": "Front Door client delivery blended geography/tier",
+      "quantity": 100000,
+      "rate": 0.1,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 10000
+    },
+    {
+      "group": "Operations",
+      "name": "Front Door requests",
+      "quantity": 10000,
+      "rate": 0.015,
+      "unit": "10,000 requests",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 150
+    },
+    {
+      "group": "Operations",
+      "name": "Front Door origin traffic allowance",
+      "quantity": 20000,
+      "rate": 0.02,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 400
+    },
+    {
+      "group": "Operations",
+      "name": "Cross-region replication: 2 destinations",
+      "quantity": 10000,
+      "rate": 0.08,
+      "unit": "GB transferred",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 800
+    },
+    {
+      "group": "Operations",
+      "name": "Direct outbound traffic excluding Front Door",
+      "quantity": 2000,
+      "rate": 0.1,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 200
+    },
+    {
+      "group": "Operations",
+      "name": "Regional firewalls fixed and processing allowance",
+      "quantity": 3,
+      "rate": 1000,
+      "unit": "region-month",
+      "status": "Allowance",
+      "growth": 0.1,
+      "monthly": 3000
+    },
+    {
+      "group": "Operations",
+      "name": "Private endpoints, DNS and peering allowance",
+      "quantity": 3,
+      "rate": 100,
+      "unit": "region-month",
+      "status": "Allowance",
+      "growth": 0.1,
+      "monthly": 300
+    },
+    {
+      "group": "Operations",
+      "name": "Warehouse ADLS logical data (ZRS allowance)",
+      "quantity": 15000,
+      "rate": 0.023,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 345
+    },
+    {
+      "group": "Operations",
+      "name": "Synapse serverless query scans",
+      "quantity": 200,
+      "rate": 5,
+      "unit": "TB scanned",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 1000
+    },
+    {
+      "group": "Operations",
+      "name": "ML NC4as T4 v3 East US",
+      "quantity": 320,
+      "rate": 0.526,
+      "unit": "GPU VM-hour",
+      "status": "Verified",
+      "growth": 0.25,
+      "monthly": 168.32
+    },
+    {
+      "group": "Operations",
+      "name": "Azure Batch Linux D4s v5 East US",
+      "quantity": 600,
+      "rate": 0.192,
+      "unit": "VM-hour",
+      "status": "Verified",
+      "growth": 0.25,
+      "monthly": 115.2
+    },
+    {
+      "group": "Operations",
+      "name": "Data pipelines orchestration allowance",
+      "quantity": 1,
+      "rate": 150,
+      "unit": "month",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 150
+    },
+    {
+      "group": "Operations",
+      "name": "Backup protection fee allowance",
+      "quantity": 56,
+      "rate": 10,
+      "unit": "protected VM-month",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 560
+    },
+    {
+      "group": "Operations",
+      "name": "Backup restore tests, transactions and version overhead",
+      "quantity": 1,
+      "rate": 300,
+      "unit": "month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 300
+    },
+    {
+      "group": "Operations",
+      "name": "SQL native backup storage above included entitlement",
+      "quantity": 10000,
+      "rate": 0.1,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 1000
+    },
+    {
+      "group": "Management",
+      "name": "Application/platform Log Analytics ingestion",
+      "quantity": 600,
+      "rate": 2.76,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 1655.9999999999998
+    },
+    {
+      "group": "Management",
+      "name": "Sentinel security logs combined ingestion allowance",
+      "quantity": 150,
+      "rate": 5,
+      "unit": "GB",
+      "status": "Allowance",
+      "growth": 0.25,
+      "monthly": 750
+    },
+    {
+      "group": "Management",
+      "name": "Long-term log archive/retention",
+      "quantity": 1000,
+      "rate": 0.03,
+      "unit": "GB-month",
+      "status": "Allowance",
+      "growth": 0.3,
+      "monthly": 30
+    },
+    {
+      "group": "Management",
+      "name": "Alerts, metrics and synthetic monitoring",
+      "quantity": 1,
+      "rate": 150,
+      "unit": "month",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 150
+    },
+    {
+      "group": "Management",
+      "name": "Defender for Servers effective instance-months",
+      "quantity": 60,
+      "rate": 15,
+      "unit": "VM-month",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 900
+    },
+    {
+      "group": "Management",
+      "name": "Defender for SQL, storage and Key Vault allowance",
+      "quantity": 1,
+      "rate": 150,
+      "unit": "month",
+      "status": "Allowance",
+      "growth": 0.2,
+      "monthly": 150
+    },
+    {
+      "group": "Management",
+      "name": "Azure support allowance",
+      "quantity": 1,
+      "rate": 1000,
+      "unit": "month",
+      "status": "Allowance",
+      "growth": 0.1,
+      "monthly": 1000
+    },
+    {
+      "group": "Management",
+      "name": "Native Cost Management, budgets, tags and Advisor",
+      "quantity": 1,
+      "rate": 0,
+      "unit": "month",
+      "status": "No incremental fee assumed",
+      "growth": 0,
+      "monthly": 0
+    }
+  ],
+  "migration": [
+    [
+      "Azure Migrate assessment and migration service",
+      1,
+      0,
+      "No service fee assumed; temporary infrastructure below"
+    ],
+    [
+      "Database Migration Service service fee",
+      1,
+      0,
+      "Confirm supported current migration path; replication infrastructure below"
+    ],
+    [
+      "Inbound initial data transfer",
+      30000,
+      0,
+      "Azure ingress; WAN charges separately"
+    ],
+    [
+      "Initial replication to two other regions",
+      60000,
+      0.08,
+      "30 TB x two copies; allowance"
+    ],
+    [
+      "Delta replication during 30-day migration",
+      6000,
+      0.08,
+      "10% changes x two copies; allowance"
+    ],
+    [
+      "Temporary replication/test VMs D4s v5 East US",
+      2920,
+      0.192,
+      "Verified VM rate"
+    ],
+    [
+      "Temporary managed disks",
+      4,
+      20,
+      "Allowance"
+    ],
+    [
+      "Staging Blob data",
+      30000,
+      0.02,
+      "One month; allowance"
+    ],
+    [
+      "Temporary VPN and source WAN allowance",
+      1,
+      500,
+      "Source provider quote required"
+    ],
+    [
+      "Migration logging and validation tooling",
+      1,
+      250,
+      "Allowance"
+    ],
+    [
+      "One month destination dual run",
+      1,
+      59842.857679999994,
+      "Full PAYG destination; precedes steady-state Year 1"
+    ],
+    [
+      "Engineering and cutover labour",
+      160,
+      100,
+      "Illustrative project labour; not Azure calculator pricing"
+    ],
+    [
+      "Security review and restore/cutover rehearsal",
+      40,
+      125,
+      "Illustrative labour; not certification fee"
+    ]
+  ],
+  "scenarios": [
+    [
+      "PAYG with scheduled scaling",
+      59842.857679999994
+    ],
+    [
+      "1-year reservations, licenses included",
+      55096.93058666666
+    ],
+    [
+      "1-year reservations + eligible Hybrid Benefit",
+      51955.01058666666
+    ],
+    [
+      "3-year reservations, licenses included",
+      52356.98614222222
+    ],
+    [
+      "3-year reservations + eligible Hybrid Benefit",
+      49215.06614222222
+    ]
+  ]
+}
