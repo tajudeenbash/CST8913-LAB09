@@ -17,6 +17,14 @@ The data model uses 730-hour months and a 16-vCore SQL SKU. Changing SQL size re
 
 ## GitHub submission
 
-Requested destination: `tajudeenbash/CST8913-LAB09`. At the last access check, the connected account could not access this repository (GitHub returned 404). Files are prepared locally, but **have not been published**. Create/enable access to the repository, then publish the contents of this folder at the repository root. Do not upload credentials, account tokens or unrelated workspace files.
+The reports, calculation model and pricing evidence have been
+published to:
 
-Before final grading, ensure the instructor can access the repository, open the README links, and download the calculator evidence. If the rubric requires a full vendor-calculator export, complete the configuration guide and attach that export as well.
+https://github.com/tajudeenbash/CST8913-LAB09
+
+Before final grading, confirm that the instructor can access the
+repository, open the README links and download the evidence files.
+
+The included calculator export covers the East US compute
+cross-check only. If the rubric requires a full provider-calculator
+export, complete the configuration guide and attach that export.
